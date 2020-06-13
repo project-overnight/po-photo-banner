@@ -2,8 +2,6 @@
 
 > A service handling the photo banner to display and allow the user to browse through photos. See a photo grid displaying up to 5 images, whereby hovering over one brings the photo into focus and dimming the others. Click into the photo to see more details and access other images for the record via an image carousel.
 
-![Photos Demo](photos_demo.gif)
-
 ## Related Projects
   - Description Service: https://github.com/project-overnight/po-description
   - Reservation Service: https://github.com/project-overnight/po-reservations
