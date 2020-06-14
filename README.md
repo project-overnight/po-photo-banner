@@ -1,23 +1,18 @@
 # Project Overnight: Photo Banner Service
 
-> A service handling the photo banner to display and allow the user to browse through photos. See a photo grid displaying up to 5 images, whereby hovering over one brings the photo into focus and dimming the others. Click into the photo to see more details and access other images for the record via an image carousel.
+A service handling the photo banner to display and allow the user to browse through photos. See a photo grid displaying up to 5 images, whereby hovering over one brings the photo into focus and dimming the others. Click into the photo to see more details and access other images for the record via an image carousel.
+
+![Project Overnight Service](Photo_Service.jpg)
 
 ## Related Projects
   - Description Service: https://github.com/project-overnight/po-description
   - Reservation Service: https://github.com/project-overnight/po-reservations
   - Reviews Service: https://github.com/project-overnight/po-reviews
 
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-
-## Usage
-- mongoDB with Mongoose
-- Express.js
-- React with JSX
-- Node.js
+## Technologies Used
+  - Frontend: React, HTML5, CSS3, jQuery
+  - Backend: MongoDB, Express, Node.js
+  - Deployment: AWS (EC2, S3)
 
 **Install dependencies**
 > npm install
@@ -33,7 +28,7 @@
 **Create the build**
 > npm run build
 
-**Start up the client**
+**Start up the service**
 > npm start
 
 ## Style Guide
