@@ -32,4 +32,4 @@ A service handling the photo banner to display and allow the user to browse thro
 > npm start
 
 ## Style Guide
-This module follows [Airbnb style guide](https://github.com/airbnb/javascript)
+This service follows [Airbnb style guide](https://github.com/airbnb/javascript)
