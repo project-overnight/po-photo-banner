@@ -11,11 +11,13 @@ A service handling the photo banner to display and allow the user to browse thro
 
 ## Technologies Used
   - Frontend: React, HTML5, CSS3, jQuery
-  - Backend: MongoDB, Express, Node.js
+  - Backend: MongoDB, Express.js, Node.js
   - Deployment: AWS (EC2, S3)
 
 **Install dependencies**
-> npm install
+```sh
+npm install
+```
 
 **Set up environment variables**
 - Make a copy of .env_sample to add server host and port details.
@@ -23,13 +25,19 @@ A service handling the photo banner to display and allow the user to browse thro
 
 **Seed the database**
 - In seeder.js, update referencees to your images and insert desired starting number and records to seed by updating createSampleData(startingNumber, numberOfRecords) on line 125.
-> npm run seed
+```sh
+npm run seed
+```
 
 **Create the build**
-> npm run build
+```sh
+npm run build
+```
 
 **Start up the service**
-> npm start
+```sh
+npm start
+```
 
 ## Style Guide
 This service follows [Airbnb style guide](https://github.com/airbnb/javascript)
